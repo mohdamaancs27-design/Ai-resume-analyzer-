@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Analyzer</title>
+    <meta name="description" content="AI-Powered Resume Analyzer for ATS Optimization">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-brain"></i>
+            <span>Resume<span class="highlight">AI</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How it Works</a></li>
+        </ul>
+        <button class="btn-primary">Get Started</button>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="badge">✨ AI-Powered Career Growth</div>
+                <h1>Unlock Your Career Potential with <span class="gradient-text">AI Analysis</span></h1>
+                <p>Upload your resume and get instant, actionable feedback to bypass ATS systems and land your dream job faster.</p>
+                
+                <div class="upload-container glass-panel">
+                    <div class="upload-area" id="upload-area">
+                        <input type="file" id="file-input" accept=".pdf,.doc,.docx" hidden>
+                        <i class="fa-solid fa-cloud-arrow-up" id="upload-icon"></i>
+                        <h3 id="upload-title">Drag & drop your resume here</h3>
+                        <p id="upload-desc">Supported formats: PDF, DOCX (Max 5MB)</p>
+                        <button class="btn-upload" id="browse-btn">Browse Files</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat glass-panel">
+                    <h4>98%</h4>
+                    <p>ATS Match Rate</p>
+                </div>
+                <div class="stat glass-panel">
+                    <h4>50k+</h4>
+                    <p>Resumes Analyzed</p>
+                </div>
+                <div class="stat glass-panel">
+                    <h4>2.5x</h4>
+                    <p>More Interviews</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="section-header">
+                <h2>Why Choose Resume<span class="highlight">AI</span>?</h2>
+                <p>Our advanced algorithms provide comprehensive feedback to make your resume stand out.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card glass-panel">
+                    <div class="icon-wrapper"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <h3>ATS Optimization</h3>
+                    <p>Identify missing keywords and format your resume perfectly for Applicant Tracking Systems.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="icon-wrapper"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3>Smart Rewriting</h3>
+                    <p>Get AI-generated suggestions to make your bullet points more impactful and action-oriented.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="icon-wrapper"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Skill Gap Analysis</h3>
+                    <p>Compare your resume against real job descriptions to reveal missing critical skills.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <i class="fa-solid fa-brain"></i>
+                    <span>Resume<span class="highlight">AI</span></span>
+                </div>
+                <p>Empowering job seekers with AI technology.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Support</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ResumeAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
